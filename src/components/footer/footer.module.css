@@ -1,0 +1,146 @@
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 50px 0px 0px;
+}
+
+.first {
+    width: 280px;
+}
+
+.first h2 {
+    color: #211F54;
+    font-size: 26px;
+}
+
+.first p {
+    font-size: 16px;
+    color: #6E7191;
+    padding: 10px 0px 20px;
+}
+
+.second {
+    width: 240px;
+}
+
+.second h3 {
+    color: #211F54;
+    font-size: 18px;
+}
+
+.second p {
+    font-size: 16px;
+    color: #6E7191;
+    padding: 8px 0px 0px;
+}
+
+.third {
+    width: 200px;
+}
+
+.third h3 {
+    color: #211F54;
+    font-size: 18px;
+}
+
+.third h4 {
+    padding-top: 10px;
+    color: #211F54;
+}
+
+.third p {
+    font-size: 16px;
+    color: #6E7191;
+    padding: 8px 0px 0px;
+}
+
+.fourth {
+    width: 280px;
+}
+
+.fourth h3 {
+    color: #211F54;
+    font-size: 18px;
+}
+
+.fourth h4 {
+    font-size: 24px;
+    color: #0075FF;
+    padding: 5px 0px;
+}
+
+.fourth p {
+    font-size: 16px;
+    color: #6E7191;
+    padding: 0px 0px 10px;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px 0px;
+    border-top: 1.5px solid #EFF0F6;
+    gap: 20px;
+}
+
+.footer-bottom img {
+    width: 140px;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+    color: #6E7191;
+}
+
+.footer-bottom p span {
+    color: #0075FF;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .footer-bottom {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 536px) {
+
+    .first,
+    .second,
+    .third,
+    .fourth {
+        width: 100%;
+        text-align: center;
+        padding: 5px 0px;
+    }
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons svg {
+    font-size: 24px;
+    color: #0075FF;
+    cursor: pointer;
+}
