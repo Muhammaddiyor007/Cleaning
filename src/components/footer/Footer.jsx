@@ -51,7 +51,7 @@ const Footer = () => {
         <img src={image} alt="" />
         <p>
           Copyright © Cleaning X | Designed by <span>BRIX Templates</span>-
-          Powered by <span>- Powered by</span>
+          Powered by <span>- Powered by -</span>
           <span>Licenses</span>
         </p>
       </div>
